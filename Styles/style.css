@@ -5,3 +5,91 @@
     font-weight: normal;
     font-style: normal;
 }
+
+/* Default Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 2.5rem auto;
+}
+
+/* section 1 */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.375rem 15rem;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.05);
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+a {
+    text-decoration: none;
+}
+.logo img {
+    width: 86px;
+    height: 40px;
+}
+.logo h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #0B0223;
+}
+.nav-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.nav-options p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #3C354F;
+}
+.follow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    background-color: rgba(11, 2, 35, 0.1);
+    padding-left: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+    border-style: none;
+    border-radius: 8px;
+}
+.follow .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.follow .icons i {
+    font-size: 33.92px;
+}
+.fa-youtube {
+    color: rgb(246, 28, 13);
+}
+.banner1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner1-part-1 .btn button {
+    width: 156px;
+    height: 65px;
+    border-radius: 48px;
+    border-style: none;
+}
+.banner1-part-2 img {
+    width: 700px;
+}
