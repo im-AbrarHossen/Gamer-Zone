@@ -17,14 +17,18 @@
     margin: 2.5rem auto;
 }
 
-/* section 1 */
+/* section 1 nav bar*/
 
 nav {
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.05);
+    padding: 2.375rem 0;
+}
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.375rem 15rem;
-    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.05);
+    max-width: 1000px;
+    margin: 0 auto;
 }
 .logo {
     display: flex;
@@ -76,13 +80,66 @@ a {
 .follow .icons i {
     font-size: 33.92px;
 }
+
+/* section 1 banner1 */
+
+#one {
+    color: rgb(11, 2, 35); 
+    font-size: 48px; 
+    font-weight: 600; 
+    /* text-align: center;  */
+    text-transform: uppercase;
+}
+.two {
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    background-clip: text; 
+    color: transparent; 
+    font-size: 95px; 
+    font-weight: 800; 
+    text-transform: uppercase;
+    text-shadow: 0 2px 4px rgb(0, 0, 0);
+}
+.two-overlay {
+    text-shadow: none;
+}
+#three {
+    color: rgb(83, 76, 100); 
+    font-size: 20px; 
+    font-weight: 500;
+}
+#four {
+    color: rgb(83, 76, 100); 
+    font-size: 20px; 
+    font-weight: 500;
+}
+#five {
+    color: rgb(83, 76, 100); 
+    font-size: 20px; 
+    font-weight: 500;
+}
 .fa-youtube {
     color: rgb(246, 28, 13);
 }
+#btn1 {
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%); 
+    font-size: 20px; 
+    font-weight: 600;
+}
+#btn2 {
+    background: rgb(78, 197, 247); 
+    font-size: 20px; 
+    font-weight: 600;
+}
+.btn a {
+    color: rgb(255, 255, 255);
+}
 .banner1 {
+    border: 2px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 .banner1-part-1 .btn button {
     width: 156px;
@@ -90,6 +147,19 @@ a {
     border-radius: 48px;
     border-style: none;
 }
+.banner1-part-1 {
+    /* padding-left: 15rem;
+    padding-right: 15rem;
+    background: linear-gradient(223.23deg, rgba(140, 87, 238, 0.03) 3.979%,rgba(241, 68, 174, 0.03) 100.54%); */
+    border: 2px solid green;
+    width: 50%;
+    position: relative;
+}
+.banner1-part-2 {
+    border: 2px solid blue;
+    width: 50%;
+}
 .banner1-part-2 img {
-    width: 700px;
+    width: 100%;
+    /*margin-right: 15rem; */
 }
